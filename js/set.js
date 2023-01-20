@@ -40,7 +40,7 @@ function setBgImgInit() {
 
     switch (bg_img["type"]) {
         case "1":
-            $('#bg').attr('src', 'https://api.bwmc.live/pc/') //随机默认壁纸
+            $('#bg').attr('src', 'https://api.kusu.icu/api/') //随机默认壁纸
             break;
     }
 }
@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         if (type === "1") {
             setBgImg(bg_img);
-            $('#bg').attr('src', 'https://api.bwmc.live/pc/') //随机默认壁纸
+            $('#bg').attr('src', 'https://api.kusu.icu/api/') //随机默认壁纸
             iziToast.show({
                 icon: "fa-solid fa-image",
                 timeout: 2500,
